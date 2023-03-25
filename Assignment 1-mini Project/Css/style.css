@@ -1,0 +1,581 @@
+/* *{
+    width: 100%;             we can do both '*' or 'body'
+} */
+
+body{
+    width: 100%;
+}
+.header{
+    width: 100%;
+    height: 130px;
+    background-color: rgb(238, 231, 239);
+}
+.logo{
+    width: 100%;
+    height: auto;
+    margin-top: -1.5;
+    margin-left: -12px;
+}
+.row h3{
+    font-size: 18px;
+    padding: 5px;
+    margin-left: -30px;
+    border: 1px solid gray;
+    width: 1110px;
+    height: auto;
+    margin-bottom: -100px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-right-width: 500px;
+}
+.left-top{
+
+    height: 30px;
+}
+.message-top{
+    font-size: 15px;
+    margin-left: -20px;
+}
+.time_class{
+    margin-left: -70px;
+    font-size: 15px;
+}
+.Social_media{
+    width: 190px;
+    height: 63px;
+    font-size: 25px;
+    text-align: center;
+    background-color: rgb(214, 214, 214);
+    float: right;
+    margin-right: -140px;
+    margin-top: -53px;
+    padding: 10px;
+}
+.Social_media a:hover{
+    color: rgb(59, 69, 59);
+
+}
+.Social_media a{
+    text-decoration: none;
+    color: rgb(7, 178, 240);
+
+}
+
+.row ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 15px;
+}
+.row ul li a:hover{
+    border: 0;   
+    border-radius: 2px             ;
+    background-color: rgb(40, 40, 70);
+    color: aliceblue;
+}
+ul li{
+    font-size: 17px;
+    padding: 5px;
+}
+ul{
+    margin-top: -8px;
+    margin-left: -40px;
+}
+.two_icon{
+    text-decoration: none;
+    font-size: 23px;
+    position: absolute;
+    word-spacing: 10px;
+    margin-top: 5px;
+    margin-left: 420px;
+    padding: 15px;
+    border: 1px solid gray;
+    height: 55px;
+    border-left: 0;
+    border-top: 0;
+    border-bottom: 0;
+    color: rgb(189, 204, 210);
+}
+.two_icon a{
+    text-decoration: none;
+}
+.Call_me{
+    font-size: 15px;
+    float:left ;
+    display: flex;
+    margin-left: 350px;
+}
+.phone_icon{
+    font-size: 17px;
+    width: 37px;
+    height: 37px;
+    border: 8px;
+    border-radius: 100px;
+    background-color: rgb(18, 174, 52);
+    margin-right: 25px;
+    margin-top: 15px;
+    padding: 10px;
+
+}
+.Numb{
+    margin-top: 15px;
+}
+
+.background_image{
+    background-image: url(../image/touch2.png);
+    width: 100% ;
+    height: 350px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.div_text {
+    position: absolute;
+    margin-left: 500px;
+    margin-top: 120px;
+    /* color: rgb(; */
+}
+.div_text h1{
+   font-size: 20px;
+   margin-left: 150PX;
+   text-decoration: underline;
+}
+.div_text h2{
+    font-size: 40px;
+    margin-left: 40PX;
+    text-decoration: underline;
+ }
+ .btn{
+    text-align: center;
+    margin-top: 250px;
+    margin-left: 730px;
+
+ }
+.container{
+    margin-top: 100px;
+}
+.building{
+    margin-top: 150px;
+}
+
+.mid_Content{
+    margin-left: 150px;
+    
+}
+.mid_Content h1{
+    font-size: 20px;
+}
+
+.Internal{
+    position: relative;
+    margin-top: -90px;
+    margin-left: 170px;
+}
+.Mid_btn{
+    border: 0;
+    border-radius: 2px;
+    background-color: lightskyblue;
+}
+.imagee{
+    position: relative;
+    margin-top: -50px;
+}
+.middle_footer{
+    position: absolute;
+    margin-top: -105px;
+    margin-left: -100px;
+    width: 100%;
+    height: 600px;
+    background-color: rgb(44, 4, 81);
+}
+.box_1{
+    text-align: center;
+    font-size: 25px;
+    width: 300px;
+    height: 100px;
+    background-color: aliceblue;
+    position: absolute;
+    margin-top: -50px;
+    margin-left: 150px;
+    padding: 6px;
+    font-weight: 600;
+}
+.box_2{
+    text-align: center;
+    font-size: 25px;
+    width: 300px;
+    height: 100px;
+    background-color: aliceblue;
+    position: absolute;
+    margin-top: -50px;
+    margin-left: 600px;
+    padding: 6px;
+    font-weight: 600;
+}
+.box_3{
+    text-align: center;
+    font-size: 25px;
+    width: 300px;
+    height: 100px;
+    background-color: aliceblue;
+    position: absolute;
+    margin-top: -50px;
+    margin-left: 1040px;
+    padding: 6px;
+    font-weight: 600;
+}
+.Middle_text_1{
+    position: absolute;
+    margin-top: 120px;
+    color: azure;
+    text-align: left;
+    font-size: 35px;
+    margin-left: 100px;
+}
+.Middle_text_1 h1{
+    color: blue;
+    font-size: 15px;
+}
+.Middle_text_2{
+    position: absolute;
+    margin-top: 120px;
+    color: azure;
+    text-align: left;
+    font-size: 15px;
+    margin-left: 200px;
+}
+.Serve_1{
+    width: 100%;
+    height: 200px;
+    background-color: rgb(18, 1, 39);
+    font-size: 15px;
+    color: azure;
+    text-align: center;
+    padding: 25px;
+    margin-top: 325px;
+    margin-left: 100px;
+}
+.Serve_1 h1{
+    font-size: 25px;
+}
+.Serve_1:hover{
+background: azure;
+color: black;
+}
+.Serve_2{
+    width: 100%;
+    height: 200px;
+    background-color: rgb(18, 1, 39);
+    font-size: 15px;
+    color: azure;
+    text-align: center;
+    padding: 25px;
+    margin-top: 325px;
+    margin-left: 100px;
+}
+.Serve_2 h1{
+    font-size: 25px;
+}
+.Serve_2:hover{
+    background-color: azure;
+    color: black;
+}
+.Serve_3{
+    width: 100%;
+    height: 200px;
+    background-color: rgb(18, 1, 39);
+    font-size: 15px;
+    color: azure;
+    text-align: center;
+    padding: 25px;
+    margin-top: 325px;
+    margin-left: 100px;
+}
+.Serve_3 h1{
+    font-size: 25px;
+}
+.Serve_3:hover{
+    background-color: azure;
+    color: black;
+}
+.Serve_4{
+    width: 100%;
+    height: 200px;
+    background-color: rgb(18, 1, 39);
+    font-size: 15px;
+    color: azure;
+    text-align: center;
+    padding: 25px;
+    margin-top: 325px;
+    margin-left: 100px;
+}
+.Serve_4:hover{
+    background-color: azure;
+    color: black;
+}
+.Serve_4 h1{
+    font-size: 25px;
+}
+.Serve_5{
+    width: 100%;
+    height: 200px;
+    background-color: rgb(18, 1, 39);
+    font-size: 15px;
+    color: azure;
+    text-align: center;
+    padding: 25px;
+    margin-top: 325px;
+    margin-left: 100px;
+}
+.Serve_5 h1{
+    font-size: 25px;
+}
+.Serve_5:hover{
+    background-color: azure;
+    color: black;
+}
+.five-icon{
+    position: absolute;
+    font-size: 55px;
+    margin-top: 310px;
+    margin-left: 180px;
+    color: azure;
+}
+.WE_re_ready{
+    width: 100%;
+    height: 250px;
+    background-color: blueviolet;
+    margin-top: 395px;
+}
+.image_setting{
+    position: relative;
+    margin-top: 50px;
+    /* image-rendering:  50px; */
+    margin-left: 50px;
+}
+.WE-text{
+    position: relative;
+    margin-top: -100px;
+    margin-left: 380px;
+    font-size: 20px;
+    color: azure;
+}
+.btn_Prmary{
+    position: relative;
+    margin-left: 850px;
+    margin-top: -100px;
+    background-color: azure;
+    color: black;
+    
+}
+
+/* contact css */
+.bread_crumb{
+    margin-top: -100px;
+    width: 100%;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(/image/touch2.png);
+}
+.bread_crumb_text section{
+    font-size: 50px;
+}
+.bread_crumb-title{
+    position: absolute;
+    margin-top: 60px;
+    margin-left: 250px;
+    text-align: center;
+    font-size: 45px;
+}
+.anchor_tag_Bread{
+    display: flex;
+    margin-top: 150px;
+    margin-left: 250px;
+}
+.anchor_tag_Bread a{
+    position: relative;
+    font-size: 20px;
+    color: rgb(207, 51, 51);
+    text-decoration: none;
+}
+
+.cont{
+    font-size: 20px;
+}
+
+/* contact details */
+.Contact-text{
+    width: 95%;
+    height: 200px;
+    border: 0;
+    background-color: rgb(224, 233, 241);
+    box-shadow: 50px;
+}
+.Contact-icon{
+    position: relative;
+    font-size: 50px;
+    margin-left: 160px;
+    margin-top: 15px;
+    text-align: center;
+}
+.Address{
+    font-size: 16px;
+    text-align: center;
+    margin-top: 5px ;
+}
+.Address h2{
+    font-size: 20px;
+}
+.envelope-icon{
+    position: relative;
+    font-size: 50px;
+    margin-left: 160px;
+    margin-top: 15px;
+    text-align: center;
+
+}
+.Emails{
+    font-size: 16px;
+    text-align: center;
+    margin-top: 15px;
+}
+.Emails h2{
+    font-size: 20px;
+}
+.headphone-icon{
+    position: relative;
+    font-size: 50px;
+    margin-left: 160px;
+    margin-top: 15px;
+    text-align: center;
+}
+.Contact{
+    font-size: 16px;
+    text-align: center;   
+    margin-top: 15px; 
+}
+.Contact h2{
+    font-size: 20px;
+}
+.form-group{
+    position: relative;
+
+}
+.submit_btn{
+position: absolute;
+margin-top: 20px;
+font-size: 25px;
+
+}
+
+.Footer_1{
+    position: absolute;
+    color: azure;
+    text-align: left;
+    width: 100%;
+    height: 400px;
+    margin-left: -100px ;
+    border: 1px solid black;
+    background-color: rgb(46, 14, 77);
+}
+
+.Footer-message-1{
+    position: relative; 
+    margin-left: 30px;  
+}
+.para_1{
+    position: absolute;
+    margin-top: 150px;
+}
+.Footer-message-1 h1{
+    position: absolute;
+    margin-top: 70px;
+}
+.Footer-message-2 h1{
+           position: absolute;
+           margin-top: -50px;
+}
+.Footer-message-2{    
+    position: absolute;
+    margin-left: 330px;
+    margin-top: 120px;
+    text-decoration: none;
+}
+.Footer-message-2 ul{
+    position: relative;
+    margin-top: 30px;
+
+}
+.Footer-message-2 ul li{
+    color: azure;
+}
+.Footer-message-2 ul li a{
+    text-decoration: none;
+    color:azure;
+    position: relative;
+    margin-top: 100px;
+
+}
+.Footer-message-2 ul li a:hover{
+    background-color: rgb(140, 0, 255);
+    color: azure;
+
+}
+.Footer-message-3{
+    position: absolute;
+    margin-top: 120px;
+    margin-left: 600px;
+}
+.Footer-message-3 h1{
+    position: absolute;
+    margin-top: -50px;
+}
+.Footer-message-3 input{
+    border: 0;
+    font-size: larger;
+    margin-top: 20px;
+}
+.para_3{
+    position: relative;
+    margin-top: 35px;
+}
+
+.send-icon{
+    font-size: 20px;
+    background-color: rgb(108, 19, 196);
+    width: 32px;
+    height: 30.5px;
+    position: absolute;
+    margin-top: 20px;
+}
+
+.Footer-message-4{
+    margin-left: 1100px;
+    margin-top: 120px;
+} 
+.Footer-message-4 h1{
+    position: absolute;
+    margin-top: -40px;
+}
+ .Three-icons{
+  position: absolute;
+  margin-top: 35px;
+}
+.Footer_2{
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    border: 1px solid black;
+    margin-left: -112px;
+    margin-top: 300px;
+    background-color: rgb(34, 3, 65);
+    
+}
+.Footer_2 h1{
+    font-size: 15px;
+    text-align: center;
+    color: azure;
+    position: relative;
+    margin-top: 40px;
+}

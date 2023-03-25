@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="keyword" content="Best company i jaipur | web application">
+    <title>Clubbin landing page</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script><!--jquery-->
+
+    <script type="text/javascript" src="js/style.js"></script>
+    <!--Bootstrap library  -->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <!--animation-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/fontawesome.min.css">
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body onload="printvalue()">
+
+    <!-- HEADER section start -->
+    <section class="Background-image ">
+        <div class="background-color">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-2 col-md-2 col-lg-2">
+                        <div class="logo">
+                            <img src="images/logo.png" alt="error" width="120px" height="110px">
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-6 col-lg-6">
+                        <div class="Upper-anchor">
+                            <ul>
+                                <li><a href="#">Popular</a></li>
+                                <li><a href="#">Upcoming</a></li>
+                                <li><a href="#">Featured</a></li>
+                            </ul>
+
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-4 col-lg-4">
+
+                        <button type="button" class="btn btn-danger" data-bs-toggle="modal"
+                            data-bs-target="#myModal">Log in</button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="myModal" role="dialog">
+                            <div class="modal-dialog modal-lg">
+                                <div class="modal-content">
+                                    <div class="modal-header login_header">
+                                        <button type="button" class="close icon_cross" data-bs-dismiss="modal"><i
+                                                class="fa-solid fa-xmark"></i></button>
+                                        <br><br>
+                                        <h4 class="modal-title login_h4">Log In With</h4><br>
+                                        <br>
+                                        <button class="btn btn-danger btn-google"><i
+                                                class="fa-brands fa-google-plus-g"></i></button>
+
+                                    </div>
+                                    <div class="modal-body login_body">
+                                        <span class="OR">OR</span>
+                                        <br> <i class="fa-solid fa-user user"></i><input type="email"
+                                            class="form-control inpuser" name="email" id="user"
+                                            placeholder="Email id">
+                                            <span id="error1"style="color: red"></span><br>
+
+                                        <i class="fa-solid fa-key key"></i><input type="password"
+                                            class="form-control inppass" name="password" id="key"
+                                            placeholder="password">
+                                            <span id="error2"style="color: red"></span><br>
+
+
+                                    </div>
+                                    <div class="modal-footer login_footer">
+                                        <button class="btn btn-default btn-logpop" type="button" onclick="validation()">Log In</button>
+                                        <br><br> <a href="#" style="text-decoration: none;">Forget Password?</a>
+                                    </div>
+
+
+
+                                </div>
+                            </div>
+                        </div>
+<!-- signup -->
+                        <button class="btn-2 btn-danger" data-bs-toggle="modal"data-bs-target="#Signup">Sign up</button>
+                         <!-- Modal -->
+                         <div class="modal fade" id="Signup" role="dialog">
+                            <div class="modal-dialog modal-lg">
+                                <div class="modal-content">
+                                    <div class="modal-header signup_header">
+                                        <button type="button" class="close signup_cross" data-bs-dismiss="modal"><i
+                                                class="fa-solid fa-xmark"></i></button>
+                                        <br><br>
+                                        <h4 class="modal-title signup_h4">Sign-Up</h4><br>
+                                        <br>
+                                        
+                                    </div>
+                                    <div class="modal-body signup_body">
+                                        
+                                        <br> <i class="fa-solid fa-user user"></i><input type="text"
+                                            class="form-control inpuser" name="Username" id="username"
+                                            placeholder="Username">
+                                            <span id="error3" style="color: red"></span>
+
+                                            <br> <i class="fa-solid fa-envelope envelope"></i><input type="email"
+                                            class="form-control inpuser" name="email" id="email"
+                                            placeholder="Email Id">
+                                            <span id="error4" style="color: red"></span>
+
+                                            <br> <i class="fa-solid fa-phone phone"></i><input type="number"
+                                            class="form-control inpuser" name="mobileno" id="mobile"
+                                            placeholder="Mobile-No.">
+
+                                            <span id="error5" style="color: red"></span>
+
+                                      <br><i class="fa-solid fa-key key"></i><input type="paswword"
+                                            class="form-control inppass" name="password" id="pass"
+                                            placeholder="Password">
+
+                                            <span id="error6" style="color: red"></span>
+
+                                            <br> <i class="fa-solid fa-check check"></i><input type="password"
+                                            class="form-control inpuser" name="password" id="confirm"
+                                            placeholder="Confirm-Password">
+
+                                            <span id="error7" style="color: red"></span>
+
+
+                                    </div>
+                                    <div class="modal-footer signup_footer">
+                                        <button class="btn btn-default btn-logpop" type="button" onclick="validation_2()">Sign-Up</button>
+                                        <br><br> <a href="#" style="text-decoration: none; margin-top: 40px;">Already Register?</a>
+                                    </div>
+
+
+
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <!--row 1-->
+
+                <div class="row">
+                    <div class="col-sm-5 col-md-5 col-lg-5">
+                        <div class="header-text">
+                            <h1>Make Your <span class="Party">Party</span><BR>Super Fun</h1><br>
+                            <SPan class="span-txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint
+                                asperiores neque id beatae expedita unde, dignissimos, nihil tempora, voluptatem
+                                ullam
+                                commodi nostrum a molestiae vero inventore ipsa blanditiis! Consequatur deleniti
+                            </SPan>
+
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-lg-6">
+                        <div class="col-sm-5 col-md-5 col-lg-5">
+                            <div class="image">
+                                <div class="col-sm-5 col-md-5 col-lg-5">
+                                    <div class="image-1 w3-animate-fading"style="animation-iteration-count: 1;">
+
+                                        <!-- we take background image -->
+                                    </div>
+                                </div>
+                                <div class="col-sm-5 col-md-5 col-lg-5">
+                                    <div class="image-2 w3-animate-fading" style="animation-iteration-count:1;">
+                                        <!-- we take bg image -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-5 col-md-5 col-lg-5">
+                        <div class="col-sm-5 col-md-5 col-lg-5">
+                            <div class="image-3 w3-animate-fading" style="animation-iteration-count:1;">
+                                <!-- we take bg image -->
+                            </div>
+                        </div>
+                        <div class="col-sm-5 col-md-5 col-lg-5">
+                            <div class="image-4 w3-animate-fading" style="animation-iteration-count:1;">
+                                <!-- we tale bg image -->
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <!--row 2-->
+        </div>
+        <!--container-->
+        </div>
+    </section>
+    <!-- header section end -->
+    <!-- menu options start-->
+    <section class="Menu-bar">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-sm-4 col-md-4 col-lg-4">
+                    <option label="City" class="City_opt">City</option>
+                    <select class="form-1-select" aria-label="Default select example">
+                        <option label=""></option>
+                        <option value="1">Rajasthan</option>
+                        <option value="2">Mumbai</option>
+                        <option value="3">Delhi</option>
+                        <option value="4">goa</option>
+                    </select>
+                </div>
+
+                <div class="col-sm-4 col-md-4 col-lg-4">
+                    <option label="Area" class="Area">Area</option>
+                    <select class="form-2-select" aria-label="Default select example">
+                        <option value=""></option>
+                        <option value="1">A-Scheme</option>
+                        <option value="2">B-Scheme</option>
+                        <option value="3">C-Scheme</option>
+                        <option value="4">D-Scheme</option>
+                    </select>
+                </div>
+
+                <div class="col-sm-4 col-md-4 col-lg-4">
+                    <option label="Date" class="Date">Date</option>
+                    <select class="form-3-select" aria-label="City" title="">
+                        <option value=""></option>
+                        <option value="1">01-08-2022</option>
+                        <option value="2">05-05-2022</option>
+                        <option value="3">11-05-2022</option>
+                        <option value="4">18-05-2022</option>
+                    </select>
+                </div>
+
+            </div>
+            <!--row-->
+        </div>
+        <!--container-->
+    </section>
+    <!-- menu options end -->
+
+    <!-- popular 1 club start -->
+    <section class="complete-popular w3-animate-top">
+        <div class="container">
+            <h1 class="heading-popular-club">Popular clubs</h1>
+            <div class="row">
+
+                <div class="col-sm-3 col-md-3 col-lg-3">
+                    <div class="popular-clubs-image">
+                        <img src="images/images/v97_495.png" alt="error" width="100%" height="200px">
+                        <p class="city-1">Asteria</p>
+                    </div>
+                </div>
+
+                <div class="col-sm-3 col-md-3 col-lg-3">
+                    <div class="popular-clubs-image">
+                        <img src="images/images/v97_496.png" alt="error" width="100%" height="200px">
+                        <p class="city-2">Roadies</p>
+                    </div>
+                </div>
+
+                <div class="col-sm-3 col-md-3 col-lg-3">
+                    <div class="popular-clubs-image">
+                        <img src="images/images/v97_497.png" alt="error" width="100%" height="200px">
+                        <p class="city-3">Diana</p>
+                    </div>
+                </div>
+
+                <div class="col-sm-3 col-md-3 col-lg-3">
+                    <div class="popular-clubs-image">
+                        <img src="images/images/v97_521.png" alt="error" width="100%" height="200px">
+                        <p class="city-4">Stardust</p>
+                    </div>
+                </div>
+
+            </div>
+            <!--row-->
+            <div class="row">
+                <div class="col-sm-3 col-md-3 col-lg-3">
+                    <div class="popular-clubs-image-2">
+                        <img src="images/images/v97_606.png" alt="error" width="100%" height="200px">
+                        <p class="city-5">Tokio Club</p>
+                    </div>
+                </div>
+
+                <div class="col-sm-3 col-md-3 col-lg-3">
+                    <div class="popular-clubs-image-2">
+                        <img src="images/images/v97_607.png" alt="error" width="100%" height="200px">
+                        <p class="city-6">Playboy Club</p>
+                    </div>
+                </div>
+
+                <div class="col-sm-3 col-md-3 col-lg-3">
+                    <div class="popular-clubs-image-2">
+                        <img src="images/images/v97_608.png" alt="error" width="100%" height="200px">
+                        <p class="city-7">Lucifier Lounge</p>
+                    </div>
+                </div>
+
+                <div class="col-sm-3 col-md-3 col-lg-3">
+                    <div class="popular-clubs-image-2">
+                        <img src="images/images/v97_609.png" alt="error" width="100%" height="200px">
+                        <p class="city-8">Pentagon</p>
+                    </div>
+                </div>
+                <div class="col-sm-2 col-md-2 col-lg-2">
+                    <button class="btn-view btn-danger">View All</button>
+                </div>
+            </div>
+            <!--row-->
+
+        </div>
+        <!--container-->
+    </section>
+    <!-- popular club 2 end -->
+
+
+    <!-- Category section start -->
+    <section>
+        <div class="container">
+            <h1 class="Category-heading">Categories</h1>
+            <div class="row">
+                <div class="col-sm-3 col-md-3 col-lg-3">
+                    <div class="Categoryies">
+                        <img src="images/images/v97_542.png" class="" alt="Cinque Terre" width="100%" height="200px">
+                        <p class="category-1">Happy<br>Hours</p>
+                    </div>
+                </div>
+
+                <div class="col-sm-3 col-md-3 col-lg-3">
+                    <div class="Categoryies">
+                        <img src="images/images/v97_546.png" class="" alt="Cinque Terre" width="100%" height="200px">
+                        <p class="category-2">Concert</p>
+                    </div>
+                </div>
+
+                <div class="col-sm-3 col-md-3 col-lg-3">
+                    <div class="Categoryies">
+                        <img src="images/images/v97_550.png" class="" alt="Cinque Terre" width="100%" height="200px">
+                        <p class="category-3">Stand<br>Up</p>
+                    </div>
+                </div>
+
+                <div class="col-sm-3 col-md-3 col-lg-3">
+                    <div class="Categoryies">
+                        <img src="images/images/v97_538.png" class="" alt="Cinque Terre" width="100%" height="200px">
+                        <p class="category-4">Night<br>Party</p>
+                    </div>
+                </div>
+
+            </div>
+            <!--row-->
+            <div class="row">
+                <div class="col-sm-3 col-md-3 col-lg-3">
+                    <div class="Categoryies-2">
+                        <img src="images/images/v97_623.png" class="" alt="Cinque Terre" width="100%" height="200px">
+                        <p class="category-5">Karoke</p>
+                    </div>
+                </div>
+
+                <div class="col-sm-3 col-md-3 col-lg-3">
+                    <div class="Categoryies-2">
+                        <img src="images/images/v97_627.png" class="img-ladies" alt="Cinque Terre">
+                        <p class="category-6">Ladies<br>Night</p>
+                    </div>
+                </div>
+
+                <div class="col-sm-3 col-md-3 col-lg-3">
+                    <div class="Categoryies-6">
+                        <img src="images/images/v97_631.png" class="img-EDM" alt="Cinque Terre" width="100%"
+                            height="210px">
+                        <p class="category-7">EDM</p>
+                    </div>
+                </div>
+
+                <div class="col-sm-3 col-md-3 col-lg-3">
+                    <div class="Categoryies-2">
+                        <img src="images/images/v106_733.png" class="" alt="Cinque Terre" width="100%" height="200px">
+                        <p class="category-8">Art &<br>craft</p>
+                    </div>
+                </div>
+
+                <div class="col-sm-2 col-md-2 col-lg-2">
+                    <button class="btn-category btn-danger">View All</button>
+                </div>
+            </div>
+            <!--row-->
+
+        </div>
+        <!--container-->
+    </section>
+    <!--category section end -->
+    <!-- upcoming events section start  -->
+    <section class="upcoming-events-section">
+        <div class="container">
+            <h1 class="upcoming-heading">Upcoming Events</h1>
+            <div class="row">
+
+                <div class="col-sm-3 col-md-3 col-lg-3">
+                    <div class="upcoming-images-1">
+                        <img src="images/images/v97_582.png" alt="error" width="600px" height="200px"
+                            class="first-image">
+                        <div class="first-event">
+                            <h1>Asteria</h1>
+                            <h5>Live Music</h5>
+                            <span class="date-1">
+                                <p>18 <br>july<br> 2022</p>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3 col-md-3 col-lg-3">
+                    <div class="upcoming-images-1">
+                        <img src="images/images/v97_583.png" alt="error" width="300px" height="200px">
+                        <div class="second-event">
+                            <h1>Roadies Club</h1>
+                            <h5>Night Party</h5>
+                            <span class="date-1">
+                                <p>18 <br>july<br> 2022</p>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-3 col-md-3 col-lg-3">
+                    <div class="upcoming-images-1">
+                        <img src="images/images/v97_584.png" alt="error" width="300px" height="203px">
+                        <div class="third-event">
+                            <h1>Trove Club</h1>
+                            <h5>Concert</h5>
+                            <span class="date-1">
+                                <p>18 <br>july<br> 2022</p>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-3 col-md-3 col-lg-3">
+                    <div class="upcoming-images-1">
+                        <img src="images/images/v97_585.png" alt="error" width="300px" height="200px">
+                        <div class="fourth-event">
+                            <h1>Diana</h1>
+                            <h5>Live Music</h5>
+                            <span class="date-1">
+                                <p>18 <br>july<br> 2022</p>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- row -->
+            <div class="row">
+                <div class="col-sm-3 col-md-3 col-lg-3">
+                    <div class="upcoming-image-2">
+                        <img src="images/images/v97_251.png" alt="error" width="95%" height="200px"
+                            class="secondf-image">
+                        <div class="fifth-event">
+                            <h1>Asteria</h1>
+                            <h5>Live Music</h5>
+                            <span class="date-1">
+                                <p>18 <br>july<br> 2022</p>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-3 col-md-3 col-lg-3">
+                    <div class="upcoming-image-2">
+                        <img src="images/images/v97_252.png" alt="error" width="300px" height="200px"
+                            class="seconds-image">
+                        <div class="sixth-event">
+                            <h1>Roadies Club</h1>
+                            <h5>Night Party</h5>
+                            <span class="date-1">
+                                <p>18 <br>july<br> 2022</p>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-3 col-md-3 col-lg-3">
+                    <div class="upcoming-image-2">
+                        <img src="images/images/v97_255.png" alt="error" width="300px" height="200px"
+                            class="seconds-image">
+                        <div class="seventh-event">
+                            <h1>trove Club</h1>
+                            <h5>Concert</h5>
+                            <span class="date-1">
+                                <p>18 <br>july<br> 2022</p>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-3 col-md-3 col-lg-3">
+                    <div class="upcoming-image-2">
+                        <img src="images/images/v97_257.png" alt="error" width="300px" height="200px"
+                            class="seconds-image">
+                        <div class="eighth-event">
+                            <h1>Diana</h1>
+                            <h5>Live Music</h5>
+                            <span class="date-1">
+                                <p>18 <br>july<br> 2022</p>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--row-->
+
+        </div>
+        <!--container-->
+
+        <button class="btn-upcoming btn-danger">View All</button>
+    </section>
+    <!-- Upcoming session section end -->
+
+    <!-- create an event section start -->
+    <section class="Create an event">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 col-md-6 col-lg-6">
+                    <div class="create-section">
+                        <h1>Create An <span class="multicolor-word">Event</span> </h1>
+
+                        <span class="create-txt">Create a public event under your name. Once on the clubbin<br> map.
+                            Your event will be recommended to user in the same<br> location whose interests also match.
+                        </span>
+                        <button class="btn-contact btn-danger">Contact Us</button>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-6">
+                    <div class="row">
+
+                        <div class="col-sm-4 col-md-4 col-lg-4">
+                            <div class="last-1-image w3-animate-left">
+                                <!-- <img src="/images/images/v106_730.png" class="new-image-left" alt="error"> -->
+                            </div>
+                        </div>
+                        <div class="col-sm-4 col-md-4 col-lg-4">
+                            <div class="last-2-image w3-animate-bottom">
+                                <!-- <img src="/images/images/v97_497.png" class="rounded" alt="error" width="200px" -->
+                                <!-- height="450px"> -->
+                            </div>
+                        </div>
+                        <div class="col-sm-4 col-md-4 col-lg-4">
+                            <div class="last-3-image w3-animate-right">
+                                <!-- <img src="/images/images/v106_733.png" class="rounded" alt="error" width="200px"
+                                    height="450px"> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!--row-->
+        </div>
+        <!--container-->
+    </section>
+    <!-- create an event section end -->
+    <!-- Footer section start -->
+    <section class="Footer-background">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3 col-md-3 col-lg-3">
+                    <div class="logo-2">
+                        <img src="images/logo.png" alt="logo-2" width="120px" height="100px">
+                    </div>
+                    <a style="color: #3b5998;" href="#!" role="button"><i
+                            class="fab fa-facebook-f fa-lg fab-fb"></i></a>
+
+                    <!-- Twitter -->
+                    <a style="color: #55acee;" href="#!" role="button"><i
+                            class="fab fa-twitter fa-lg fab-twitter"></i></a>
+
+                    <!-- Instagram -->
+                    <a style="color: #ac2bac;" href="#!" role="button"><i
+                            class="fab fa-instagram fa-lg fab-instagram"></i></a>
+                </div>
+                <div class="col-sm-2 col-md-2 col-lg-2"></div>
+                <div class="col-sm-6 col-md-6 col-lg-6">
+
+                    <div class="col-sm-4 col-md-4 col-lg-4">
+                        <div class="footer-text-1">
+                            <h1>Quick Links</h1>
+                            <ul>
+                                <li><a href="#">Popular</a></li>
+                                <li><a href="#">Upcoming</a></li>
+                                <li><a href="#">Featured</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 col-md-4 col-lg-4">
+                        <div class="Footer-text-2">
+                            <h1>Useful Links</h1>
+                            <ul>
+                                <li><a href="#">About Us</a></li>
+                                <li><a href="#">Privacy & Policy</a></li>
+                                <li><a href="#">Terms & Conditions</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 col-md-4 col-lg-4">
+                        <div class="Footer-text-3">
+                            <h1>More</h1>
+                            <div class="icon-call">
+                                <i class="fa-solid fa-phone "></i>&nbsp;+91-9166705942<br>
+                            </div>
+                            <div class="icon-mail">
+                                <i class="fa-solid fa-envelope"></i>&nbsp;infotech4546@gmail.com <br>
+                            </div>
+                            <div class="icon-location">
+                                <i class="fa-solid fa-location-dot"></i>&nbsp;PIET Campus Sitapura Riico Industrial
+                                <br>&nbsp;&nbsp;&nbsp;&nbsp;Area Jaipur 302022.
+                            </div>
+                        </div>
+                    </div>
+                    <!--col8-->
+                </div>
+                <!--row-->
+            </div>
+            <!--container-->
+    </section>
+    <!-- Footer section end -->
+</body>
+
+</html>
